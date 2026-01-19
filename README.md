@@ -37,15 +37,6 @@ Buttons are provided to:
 * Reset pose
 
 
-## How It Works
-
-* The 3D model has bones
-* The code rotates those bones
-* Original pose is saved
-* Movements are applied safely
-* Reset brings the model back to normal
-
-
 ## Required Bones
 
 The model should have bones for:
