@@ -1,0 +1,35 @@
+.ui {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+
+  background: #ffffff;
+  padding: 20px 24px;
+  border-radius: 12px;
+
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+  z-index: 20;
+}
+
+.ui .buttons {
+  display: flex;            
+  gap: 12px;                  
+  flex-wrap: wrap;           
+}
+
+.ui button {
+  font-size: 30px;            
+  padding: 20px 20px;         
+  min-width: 150px;           
+
+  border: none;
+  border-radius: 10px;
+  background: #0ea5a4;
+  color: white;
+
+  cursor: pointer;
+}
+
+.ui button:hover {
+  background: #0d9488;
+}

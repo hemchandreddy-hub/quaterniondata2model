@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>3D Character — Quaternion Bone Control</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.155.0/build/three.module.js"
+    }
+  }
+  </script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div id="overlay" class="overlay">Loading 3D Character…</div>
+
+  <div id="ui" class="ui hidden">
+    <h1>Bone Control</h1>
+
+    <button id="raise-hand">Raise Right Hand</button>
+    <button id="lower-hand">Lower Right Hand</button>
+    <button id="raise-leg">Raise Right Leg</button>
+    <button id="lower-leg">Lower Right Leg</button>
+    <button id="reset-pose">Reset Pose</button> 
+
+  </div>
+
+  <div id="scene-container"></div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
